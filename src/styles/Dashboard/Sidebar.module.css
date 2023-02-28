@@ -1,0 +1,40 @@
+.list > ul {
+    list-style: none;
+}
+
+.listitemUnselected {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    padding: 1rem 1.2rem;
+
+    /* Black 02 */
+
+    color: #333333;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.listitemSelected {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    padding: 1rem 1.2rem;
+
+    /* White */
+
+    color: #ffffff;
+
+    background: #00c689;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
